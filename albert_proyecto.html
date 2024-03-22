@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea de Proyecto Albert Jané</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        :root {
+            color-scheme: dark;
+        }
+
+        .hero {
+            background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("img/hero.webp");
+            margin-top: -2%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid bg-slate-800 px-5 py-5 flex justify-around items-center sticky top-0">
+        <div>
+            <span class="text-2xl">
+                Rocket Launches
+            </span>
+        </div>
+        <nav>
+            <ul class="flex gap-5 text-xl">
+                <a href="#idea">
+                    <li>Idea</li>
+                </a>
+                <a href="#description">
+                    <li>Project Description</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div
+        class="hero container-fluid min-h-screen bg-slate-500 bg-norepeat bg-fixed bg-bottom bg-cover py-5 flex flex-col justify-around items-center">
+        <div class="text-center">
+            <h1 class="text-3xl font-bold">Track all the Rocket Launches</h1>
+            <p class="mt-2">Here you can see when was or will be launched, if they had been successfull, what was the
+                paiload and much more!</p>
+        </div>
+        <div class="text-center">
+            <a href="#idea">
+                <h3 class="text-xl">Start Now </h6>
+                    <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+    </div> 
+
+    <div class="container box-border w-100 mx-auto grid grid-cols-1 lg:grid-cols-2 mt-10 py-10" id="idea">
+        <div class="px-10 justify-self-center self-center my-5 " >
+
+            <h3 class="text-xl font-semibold " >This is the idea of the project</h3>
+            <p class="mt-5">The main pourpose of this project is to make a web app that contains the information of
+                various rocket launches, some historical ones, some that just happened, a countdown for the next rocket
+                launch and some information about the next launches for the month, it could be displayed by time, by the
+                company that operate the rocket, by the payload among others.</p>
+
+        </div>
+        <div class="text-center my-5 justify-self-center">
+            <img src="img/rocket.jpg" alt="A rocket launch image" class="rounded-3xl ">
+        </div>
+
+    </div>
+    <div class="bg-slate-900">
+        <div class="container box-border w-100 mx-auto grid grid-cols-1 lg:grid-cols-2 mt-10 py-10 " id="description">
+            <div class="text-center justify-self-center my-5 order-2 lg:order-1">
+                <img src="img/nasa_orion.webp" alt="A rocket launch image" class="rounded-3xl" width="512" height="324">
+            </div>
+            <div class="px-10 justify-self-center self-center my-5 order-1 lg:order-2">
+
+                <h3 class="text-xl font-semibold">Project description</h3>
+                <p class="mt-5">I think this is a very good project not just because the wonderfull space pictures, I
+                    think it's great because of the scalability of it too, we could make a simple page to begin with,
+                    exploting an api, like the one that gives you information about the spaceX launches and then we
+                    could make our own database of rocket launches, we have the javascript countdown and much more, i
+                    think that this would be a nice project.</p>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
